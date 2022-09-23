@@ -160,6 +160,7 @@ p {
 
 .partner-list {
   width: 100%;
+
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -172,12 +173,12 @@ p {
 
 .kartu-partner img {
   width: 150px;
-  border-radius: 50%;
 }
 
 #contact {
   background: #dedede;
   padding: 50px 0px 50px 0px;
+  text-align: center;
 }
 
 .footer {
@@ -257,6 +258,8 @@ h3 {
 }
 
 .img-fixed {
-  width: 450px;
-  height: 259.45px;
+  width: 540x;
+  height: 350px;
+  float: right;
+  padding: 20px;
 }
