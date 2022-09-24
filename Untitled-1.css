@@ -13,8 +13,6 @@ body {
 .wrapper {
   width: 1100px;
   margin: auto;
-  position: relative;
-  z-index: 5;
   justify-content: center;
 }
 
@@ -65,18 +63,21 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
+.banner {
+  width: 100%;
+}
+#about {
+  display: block;
+}
 section {
   margin: auto;
-  display: flex;
+  display: block;
   margin-bottom: 50px;
 }
 
 .kolom {
   margin-top: 50px;
   margin-bottom: 50px;
-  position: relative;
-  z-index: 2;
 }
 
 .kolom .deskripsi {
@@ -136,30 +137,22 @@ p {
   width: 100%;
 }
 
-.tutor-list {
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.kartu-tutor {
-  width: 20%;
-  margin: 0 auto;
-  border: 2px solid grey;
-}
-
-.kartu-tutor img {
-  width: 80%;
-  border-radius: 50%;
-}
-
 .kartu-tutor p {
   font-family: 'comic sans ms';
   font-weight: 800;
   font-size: 25px;
   text-align: center;
   color: #364f6b;
+}
+.imgfixed {
+  width: 540x;
+  height: 350px;
+  float: left;
+}
+.imgfixed2 {
+  width: 540x;
+  height: 350px;
+  float: right;
 }
 
 .partner-list {
@@ -213,65 +206,4 @@ h3 {
   width: 100%;
   padding: 50px 0px 50px 0px;
   margin-top: 50px;
-}
-
-@media screen and (max-width: 991.98px) {
-  .wrapper {
-    width: 90%;
-  }
-
-  .logo a {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-
-  nav .menu {
-    width: 100%;
-    margin: 0;
-  }
-
-  nav .menu ul {
-    text-align: center;
-    margin: auto;
-    line-height: 60px;
-  }
-
-  nav .menu ul li {
-    display: inline-block;
-    float: none;
-  }
-
-  section {
-    display: block;
-  }
-
-  section img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .kartu-tutor {
-    width: 50%;
-  }
-
-  .kartu-partner {
-    width: 50%;
-  }
-}
-
-.img-fixed {
-  width: 540x;
-  height: 350px;
-  padding: 20px;
-  z-index: 4;
-  position: relative;
-}
-.img-fixed2 {
-  width: 540x;
-  height: 350px;
-  padding: 20px;
-  z-index: 3;
-  position: relative;
 }
